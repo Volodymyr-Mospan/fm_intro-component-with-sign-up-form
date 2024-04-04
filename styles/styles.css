@@ -1,0 +1,12 @@
+.intro {
+  display: flex;
+}
+
+.information {
+  max-width: 525px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
