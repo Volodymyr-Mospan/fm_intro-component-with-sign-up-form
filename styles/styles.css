@@ -3,10 +3,38 @@
   --button-color: #38cc8b;
   --second-bg-color: #5e54a4;
   --main-text-color: #3d3b48;
+
+  --main-font-family: "Poppins", sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+main {
+  background-color: var(--main-bg-color);
+  background-image: url(../images/bg-image.svg);
 }
 
 .intro {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+
+  max-width: 1140px;
+  min-height: 100svh;
+
+  padding: 15px 15px;
 }
 
 .information {
@@ -15,5 +43,15 @@
 
 .form {
   display: flex;
+
+  max-width: 540px;
+
   flex-direction: column;
+}
+
+.first-name {
+  display: block;
+}
+
+input {
 }
